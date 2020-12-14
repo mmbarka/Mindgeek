@@ -1,0 +1,188 @@
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+main{
+    font-family:'Open Sans', sans-serif;
+   
+}
+header{
+    background-color: #FCFCFC;
+}
+i{
+    width: 100%;
+    display: block;
+       
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+nav a{
+    text-decoration: none;
+    font-family:'Candal', sans-serif;
+    color:#1b3e44;
+    font-size: medium;
+
+}
+#sec1{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20rem;
+    text-align: center;
+    color:white ;
+}
+h1{
+    font-size: 3em;
+    font-family:'Candal', sans-serif;
+    font-weight: 500;
+}
+h2{
+    font-size:1.8em;
+    text-align: center;
+    font-family:'Candal', sans-serif;
+    color: #1b3e44;
+    border: 1px dashed black;
+    border-bottom: none;
+    padding-top: 3rem;
+}
+
+h3{
+    font-size:1.2em;
+    text-align: center;
+    color: #fb8b9b;
+    font-size: large;
+}
+#sec1 p{
+    font-size: 2em;
+    font-weight: 700;
+}
+input{
+    background-color:#fb8b9b;
+    width: 100%;
+    border: none;
+    padding: 1rem 0;
+   
+
+
+}
+::placeholder{
+    color:white;
+}
+div article{
+    width: 35%;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+}
+
+#sec2, #sec3{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+}
+i{
+    color: #fb8b9b;
+}
+footer{
+    background-color: #213e4e;
+}
+footer nav a{
+    margin: 3rem;
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    font-family:'Candal', sans-serif;
+}
+#logo3wa{
+    width:3%;
+    display: block;
+    margin:auto;
+    margin-top: 1.5rem;
+}
+.footer{
+    color: white;
+    text-align: center;
+}
+hr{
+   
+    border:1px dashed #fb8b9b ;  
+}
+span{
+    color:#fb8b9b ;
+}
+
+#sec1_contact{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#sec1_contact article p{
+    font-size: medium;
+}
+#sec_cloud{
+    display: flex;
+    justify-content: space-between;
+}
+#sec_cloud h3, #sec_cloud h4{
+    text-align: center;
+}
+#sec_cloud article{
+    border: 1px dashed gray;
+    padding: 1rem;
+}
+
+#sec_cloud article h3{
+    background-color:#213e4e;
+    color: white;
+    padding: 1.3rem 0;
+}
+
+#sec_cloud article a{
+    background-color:#fb8b9b;
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+    text-decoration: none;
+   display: block;
+   text-align: center;
+}
+li{
+    list-style-type: circle;
+}
+
+@media screen and (min-width:768px) and (max-width:1024px)
+{
+    nav{
+        flex-direction: column;
+    }
+    nav a {
+        margin-bottom: 2rem;
+    }
+    #sec2, #sec3{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #sec1_contact{
+        flex-direction: column;
+        align-items: center;
+    } 
+    #sec1_contact article{
+        margin-bottom: 1rem;
+    }
+}
+
+
+
+
+
